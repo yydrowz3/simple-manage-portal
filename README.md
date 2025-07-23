@@ -1,4 +1,4 @@
-# Tiny Manage Portal
+# Simple Manage Portal
 
 This is a simple [React](https://react.dev/) and TypeScript based user manage portal page. The UI is build with [TailwindCSS](https://tailwindcss.com/) and [DaisyUI](https://daisyui.com/) components. And both the database and user authentication utilizes [Supabase](https://supabase.com/).
 
