@@ -12,6 +12,7 @@ This project utilizes [Jotai](https://jotai.org/) for React global state managem
 <img alt="DaisyUI" src="https://img.shields.io/badge/-DaisyUI-1AD1A5?style=flat-square&logo=daisyui&logoColor=white" />
 <img alt="Vite" src="https://img.shields.io/badge/-Vite-646cff?style=flat-square&logo=vite&logoColor=white" />
 <img alt="React Router" src="https://img.shields.io/badge/-ReactRouter-ca4245?style=flat-square&logo=reactrouter&logoColor=white" />
+<img alt="Supabase" src="https://img.shields.io/badge/-Supabase-3fcf8e?style=flat-square&logo=supabase&logoColor=white" />
 </p>
 
 ## Environment
@@ -34,7 +35,16 @@ To run the project on your local device, please run:
 npm run dev
 ```
 
-To build the project into a static website, please run:
+To build the project into a static website, please first create the `.env` file in the project root directory and add static values as:
+
+```
+VITE_SUPABASE_KEY=  // your supabase key
+VITE_SUPABASE_URL=  // your supabase url
+VITE_SUPABASE_TOKEN=  // token generated in your browser localstorage, only the value is needed
+VITE_PAGE_SIZE=10
+```
+
+and then execute the following command:
 
 ```sh
 npm run build
